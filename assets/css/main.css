@@ -3302,6 +3302,7 @@ input, select, textarea {
 				grid-area: content;
 				max-width: 60rem;
 				position: relative;
+				background-color: rgb(246, 244, 240);
 			}
 
 			#wrapper section > footer {
@@ -3626,6 +3627,10 @@ input, select, textarea {
 						#wrapper > section > header > * {
 							max-width: 25rem;
 						}
+
+			#wrapper > section > header > p {
+				color: beige;
+			}
 
 						#wrapper > section > header > :last-child {
 							margin-bottom: 0;
