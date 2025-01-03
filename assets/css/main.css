@@ -2528,7 +2528,7 @@ input, select, textarea {
 			}
 
 		.image.fill {
-			height: 130%;
+			height: 100%;
 			left: 0;
 			position: absolute;
 			top: 0;
@@ -3302,7 +3302,8 @@ input, select, textarea {
 				grid-area: content;
 				max-width: 60rem;
 				position: relative;
-				background-color: rgb(246, 244, 240);
+				background-color: rgb(246, 244, 240) !important;
+				z-index: 4;
 			}
 
 			#wrapper section > footer {
